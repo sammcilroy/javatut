@@ -51,6 +51,48 @@ public class HelloWorld {
         System.out.println(strInt);
 
         // MATH FUNCTIONS
+        System.out.println("5 + 4 = " + (5+4));
+        System.out.println("5 - 4 = " + (5-4));
+        System.out.println("5 * 4 = " + (5*4));
+        System.out.println("5 / 4 = " + (5/4));
+        System.out.println("5 % 4 = " + (5%4));
+        System.out.println("5 / 4 = " + (5.0/4.0));
+
+        int incMe = 0;
+        System.out.println("incMe : " + (incMe++));
+        System.out.println("incMe : " + (++incMe));
+        incMe += 10;
+        System.out.println(incMe);
+
+        // RANDOM
+        int minNum = 5;
+        int maxNum = 20;
+        int randNum = minNum + (int)(Math.random() *
+                ((maxNum - minNum) + 1));
+        System.out.println("Rand : " + randNum);
+
+        // STRINGS
+        String name = "Derek";
+        String wName = name + " Banas";
+        wName += " is my name";
+        String drsDog = "K" + 9;
+        System.out.println(wName.charAt(0));
+        System.out.println(wName.contains("Derek"));
+        System.out.println(wName.indexOf("Derek"));
+        System.out.println(wName.length());
+        System.out.println("dog equals cat : " +
+                ("dog".equalsIgnoreCase("cat")));
+        System.out.println(wName.compareTo("ABC"));
+        System.out.println(wName.replace("Derek", "Bob"));
+        System.out.println(wName.substring(0,5));
+        for (String x: wName.split(" ")) System.out.println(x);
+        //trim
+        //toUpperCase
+        //toLowerCase
+
+
+
+
 
     }
 }
