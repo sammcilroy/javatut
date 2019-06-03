@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01873480-a831-40b6-af83-542a6ef6a3d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Gnrc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thrds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strms.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExceptHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,15 +52,6 @@
                 <element signature="e#1690#1691#0" expanded="true" />
                 <element signature="e#1741#1742#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Battle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -128,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyGeneric.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -139,6 +117,24 @@
                 <element signature="e#133#134#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Thrds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -204,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/Strms.java" />
         <option value="$PROJECT_DIR$/src/Gnrc.java" />
         <option value="$PROJECT_DIR$/src/MyGeneric.java" />
+        <option value="$PROJECT_DIR$/src/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/Thrds.java" />
       </list>
     </option>
   </component>
@@ -260,14 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Gnrc">
-    <configuration name="EnumTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumTypes" />
-      <module name="JavaTut" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Thrds">
     <configuration name="ExceptHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptHand" />
       <module name="JavaTut" />
@@ -289,6 +280,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thrds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thrds" />
+      <module name="JavaTut" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WarriorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WarriorGame" />
       <module name="JavaTut" />
@@ -298,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thrds" />
         <item itemvalue="Application.Gnrc" />
         <item itemvalue="Application.Strms" />
         <item itemvalue="Application.WarriorGame" />
         <item itemvalue="Application.ExceptHand" />
-        <item itemvalue="Application.EnumTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559575329277</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="generics">
+      <created>1559576563055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559576563055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -399,7 +404,7 @@
     <frame x="1725" y="38" width="1705" height="1392" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.06253758" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.06253758" />
       <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.11199095" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,7 +413,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50084037" side_tool="true" weight="0.11199095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24546172" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24546172" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +448,8 @@
     <MESSAGE value="compositing" />
     <MESSAGE value="abstract classes" />
     <MESSAGE value="streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="streams" />
+    <MESSAGE value="generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,6 +688,20 @@
             <element signature="e#133#134#0" expanded="true" />
             <element signature="e#154#155#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thrds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
