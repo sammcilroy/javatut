@@ -52,6 +52,12 @@ public class Mthds {
         }
     }
 
+    public static int getSum3(int[] nums) {
+        int sum = 0;
+        for(int x: nums) sum += x;
+        return sum;
+    }
+
     public static void main(String[] args) {
         System.out.println("5 + 4 = " + getSum(5, 4));
 
@@ -71,6 +77,9 @@ public class Mthds {
         System.out.println(randList);
 
         System.out.println("Fact 4 = " + factorial(4));
+
+        int [] nums = {1,2,3};
+        System.out.println("Sum = " + getSum3(nums));
 
 
     }
