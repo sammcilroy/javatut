@@ -22,7 +22,7 @@ public class Strms {
         int multAll = IntStream.range(1,5).reduce(1, (x,y) -> x * y);
         System.out.println(multAll);
 
-        DoubleStream stream = IntStream.range(1,5).mapToDouble((i -> i));
+        //DoubleStream stream = IntStream.range(1,5).mapToDouble((i -> i));
 
     }
 }
