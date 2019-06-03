@@ -9,6 +9,8 @@ public class DodgeWarrior extends Warrior{
         super(name, health, atkMax, blockMax);
         this.dodgePercent = dodgePercent;
 
+        teleportType = new CanTeleport();
+
     }
     @Override
     public int block() {

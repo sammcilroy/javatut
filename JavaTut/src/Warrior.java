@@ -5,6 +5,8 @@ public class Warrior {
     public int atkMax = 0;
     public int blockMax = 0;
 
+    public Teleports teleportType;
+
     // to initialize or 'set up' a warrior whenever it is created we need a Constructor
     // Constructors should have the same name as the class
 
@@ -58,4 +60,13 @@ public class Warrior {
     public void setBlockMax(int blockMax) {
         this.blockMax = blockMax;
     }
-}
+
+    public String teleport() {
+        return teleportType.teleport();
+    }
+
+    public void setTeleportAbility(Teleports newTeleportType) {
+        teleportType = newTeleportType;
+        }
+    }
+
