@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01873480-a831-40b6-af83-542a6ef6a3d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Crashable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WarriorGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WarriorGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crashable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -118,6 +117,18 @@
               <folding>
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Strms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/DodgeWarrior.java" />
         <option value="$PROJECT_DIR$/src/WarriorGame.java" />
         <option value="$PROJECT_DIR$/src/Crashable.java" />
+        <option value="$PROJECT_DIR$/src/Strms.java" />
       </list>
     </option>
   </component>
@@ -237,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WarriorGame">
+  <component name="RunManager" selected="Application.Strms">
     <configuration name="EnumTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnumTypes" />
       <module name="JavaTut" />
@@ -252,15 +264,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Looping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Looping" />
+    <configuration name="Mthds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mthds" />
       <module name="JavaTut" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mthds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mthds" />
+    <configuration name="Strms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strms" />
       <module name="JavaTut" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Strms" />
         <item itemvalue="Application.WarriorGame" />
         <item itemvalue="Application.ExceptHand" />
         <item itemvalue="Application.EnumTypes" />
         <item itemvalue="Application.Mthds" />
-        <item itemvalue="Application.Looping" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559572653446</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="abstract classes">
+      <created>1559572916916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559572916916</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -371,7 +390,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50084037" side_tool="true" weight="0.11199095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24546172" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24546172" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +398,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291239" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32919955" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32754537" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32754537" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -404,7 +423,8 @@
     <MESSAGE value="exception handling" />
     <MESSAGE value="oop" />
     <MESSAGE value="compositing" />
-    <option name="LAST_COMMIT_MESSAGE" value="compositing" />
+    <MESSAGE value="abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -605,6 +625,16 @@
           <folding>
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
